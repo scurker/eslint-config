@@ -1,0 +1,18 @@
+{
+  "name": "@scurker/eslint-config",
+  "version": "1.0.0",
+  "description": "@scurker's preferred eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scurker/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
+  "author": "Jason Wilson <jason@scurker.com>",
+  "license": "MIT"
+}
