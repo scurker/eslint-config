@@ -13,9 +13,33 @@
 
 Once installed, you will need to add `@scurker` or `@scurker/eslint-config` in the [extends](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) property of your `.eslintrc` file.
 
-```
+```js
 {
   "extends": ["@scurker"],
+  "rules": {
+    // additional rules or overrides for your project
+  }
+}
+```
+
+## Additional Rule Sets
+
+### React
+
+```js
+{
+  "extends": ["scurker", "scurker/react"],
+  "rules": {
+    // additional rules or overrides for your project
+  }
+}
+```
+
+### Preact
+
+```js
+{
+  "extends": ["scurker", "scurker/preact"],
   "rules": {
     // additional rules or overrides for your project
   }

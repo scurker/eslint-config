@@ -4,15 +4,30 @@
   "description": "@scurker's preferred eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "files": [
+    "index.js",
+    "preact.js",
+    "react.js",
+    "rules"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/scurker/eslint-config.git"
   },
-  "peerDependencies": {
-    "eslint": ">=3"
-  },
   "author": "Jason Wilson <jason@scurker.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4",
+    "eslint-plugin-react": ">=7"
+  }
 }

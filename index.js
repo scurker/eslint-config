@@ -10,10 +10,6 @@ module.exports = {
     }
   },
 
-  ecmaFeatures: {
-    experimentalObjectRestSpread: true,
-  },
-
   rules: {}
 
 };
