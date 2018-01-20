@@ -28,7 +28,7 @@ Once installed, you will need to add `@scurker` or `@scurker/eslint-config` in t
 
 ```js
 {
-  "extends": ["scurker", "scurker/react"],
+  "extends": ["@scurker", "@scurker/react"],
   "rules": {
     // additional rules or overrides for your project
   }
@@ -39,7 +39,7 @@ Once installed, you will need to add `@scurker` or `@scurker/eslint-config` in t
 
 ```js
 {
-  "extends": ["scurker", "scurker/preact"],
+  "extends": ["@scurker", "@scurker/preact"],
   "rules": {
     // additional rules or overrides for your project
   }
