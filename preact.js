@@ -10,6 +10,8 @@ module.exports = {
     }
   },
 
-  rules: {}
+  rules: {
+    'react/no-unknown-property': ['error', { ignore: ['class', 'for'] }]
+  }
 
 };
