@@ -11,8 +11,8 @@ module.exports = {
   ],
 
   parserOptions: {
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true
+    parserOptions: {
+      ecmaVersion: 2018
     }
   },
 
