@@ -8,7 +8,7 @@ module.exports = {
 
     // Warn when not using camel case names
     // http://eslint.org/docs/rules/camelcase
-    'camelcase': ['warn', { properties: 'never' }],
+    'camelcase': ['warn', { properties: 'never', ignoreDestructuring: true }],
 
     // Allow trailing commas
     // http://eslint.org/docs/rules/comma-dangle
